@@ -2,3 +2,6 @@
 *.vmdk
 *.mf
 *.ovf
+*.zip
+phpMyAdmin-5.2.1-all-languages/*
+*.sql
