@@ -4,7 +4,8 @@ sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F2
 sudo add-apt-repository "deb [arch=amd64,arm64,ppc64el] http://mariadb.mirror.liquidtelecom.com/repo/10.4/ubuntu $(lsb_release -cs) main"
 
 sudo apt update
-sudo apt -y install mysql-server mariadb-server mariadb-client
+sudo apt -y install mariadb-server mariadb-client
+sudo apt -y autoremove
 sudo /etc/init.d/mysql restart
 
 sudo mysql_secure_installation
