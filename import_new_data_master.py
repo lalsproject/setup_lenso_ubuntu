@@ -120,7 +120,7 @@ sql_file_path = 'backup_struktur_new_data_master_2024-12-02.sql'  # Ganti dengan
 host = 'localhost'  # Ganti dengan host database Anda
 user = 'root'  # Ganti dengan user database Anda
 password = '12'  # Ganti dengan password user Anda
-database = 'idm_b'  # Ganti dengan nama database Anda
+database = 'new_data_master'  # Ganti dengan nama database Anda
 batch_size = 50  # Jumlah pernyataan SQL yang dijalankan per batch, sesuaikan dengan kemampuan server
 
 main(sql_file_path, host, user, password, database, batch_size)
